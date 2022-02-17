@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18pt;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+}
+.first--row {
+    background-color: #348f8f;
+    color: #A7FBFF;
+}
+.first--row :hover {
+    background-color: #f5f534;
+    color: #0F00DE;
+}
+
+.second--row {
+    background-color: #f5f534;
+    color: #0F00DE;
+}
+.second--row :hover {
+    background-color: #348f8f;
+    color: #A7FBFF;
+}
