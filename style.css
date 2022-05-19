@@ -1,87 +1,39 @@
-
-.main {
-    background-color: rgb(0, 0, 0);
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    position: absolute;
-    left: 100px;
-    top: 400px;
-    
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
 }
-
-.white {
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    left: 10%;
-    top: 10%;
+wrapper {
+    display: flex;
+    flex-direction: column;
 }
-
-.black {
-    background-color: rgb(0, 0, 0);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    left: 25%;
-    top: 25%;
+header {
+    height: 624px;
+    display: flex;
+    background: rgb(75, 198, 255);
 }
-
-.horizontal {
-    height: 350px;
-    width: 20px;
-    background-color: black;
-    position: absolute;
-    left: 215px;
-    top: 350px;
+main {
+    height: 156px;
+    width: 100%;
+    background: blue;
+    display: flex;
+    justify-content: center;
 }
-
-.vertical {
-    height: 20px;
-    width: 350px;
-    background-color: black;
-    position: absolute;
-    top: 515px;
-    left: 50px;
+main img{
+    height: 156px;
 }
-
-.main__second {
-    background-color: rgb(0, 0, 0);
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    transform: translate(590px,75px);
+footer {
+    height: 156px;
+    width: 100%;
+    background: wheat;
 }
-
-.white__second {
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    transform: translate(24px,24px);
+.header__left {
+    flex: 1;
+    background:black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.black__second {
-    background-color: rgb(0, 0, 0);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    transform: translate(50px,50px);
-}
-
-.horizontal__second {
-    height: 350px;
-    width: 20px;
-    background-color: black;
-    transform: translate(704px,-225px);
-}
-
-.vertical__second {
-    height: 20px;
-    width: 350px;
-    background-color: black;
-    transform: translate(539px,-405px);
+.header__right {
+    flex: 3;
 }
