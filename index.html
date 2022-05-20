@@ -3,23 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+   <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    
-    <wrapper>
-        <header>
-            <div class="header__left">
-                <img src="https://thypix.com/wp-content/uploads/2021/11/huggy-wuggy-pic-1-m.jpg" alt="maini">
+    <wrapper> 
+        <div class="form">
+            <div class="title">Welcome</div>
+            <div class="subtitle">Форма для заповнення</div>
+            <div class="input-container ic1">
+              <input id="name" class="input" type="text" placeholder=" " />
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder">Ім'я</label>
             </div>
-            <div class="header__right">Привет</div>
-        </header>
-        <main>
-            <img src="https://www.1zoom.me/big/18/30858-Nika.jpg" alt="sss">
-        </main>
-        <footer>Пока</footer>
+            <div class="input-container ic2">
+              <input id="card" class="input" type="text" placeholder=" " />
+              <div class="cut"></div>
+              <label for="lastname" class="placeholder">ID-card</label>
+            </div>
+            <div class="input-container ic2">
+                <input id="faculty" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="lastname" class="placeholder">Факультет</label>
+              </div>
+              <div class="input-container ic2">
+                <input id="date" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="lastname" class="placeholder">Дата народження</label>
+              </div>
+            <div class="input-container ic2">
+              <input id="adress" class="input" type="text" placeholder=" " />
+              <div class="cut cut-short"></div>
+              <label for="text" class="placeholder">Адреса</>
+            </div>
+            <input type="submit" class="submit"></input>
+          </div>
     </wrapper>
+
+    <input type="color" id="color" onchange="setColor()">
+    <table>
+        <tr>
+            <td id="c1">1</td>
+            <td>2</td>
+            <td id="c3">3</td>
+            <td>4</td>
+            <td>5</td>
+            <td id="c6">6</td>
+        </tr>
+        <tr>
+            <td >7</td>
+            <td>8</td>
+            <td id="c9">9</td>
+            <td>10</td>
+            <td id="c11">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td id="c16">16</td>
+            <td>17</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>20</td>
+            <td id="c21">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td id="c26">26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td id="c31">31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+            <td>35</td>
+            <td>36</td>
+        </tr>
+    </table>
+    <script src="./index.js"></script>
+    
 </body>
 </html>
